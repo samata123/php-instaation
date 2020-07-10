@@ -1,0 +1,20 @@
+step1) install xammp
+
+step2)go to xammp/htdocs/beta_merge/git_bash here (beta_merge) is new folder
+
+step3)git init
+git config --global user.name “<github username>”
+git config --global user.email "<github email>"
+git remote add origin https://github.com/sharad-school/client_demo.git
+git checkout -b beta_merge
+git pull origin beta_merge
+
+step4)get sql file
+
+step5)store it in desktop
+step 6)get path of the saql file in properties(right click)
+
+step7)run cmd prompt
+step7) go to the e directory or c where ever
+step8) run mysql -u root -p demo < C:\Users\shilpita\Desktop\demo.sql
+
