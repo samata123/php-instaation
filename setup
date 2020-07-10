@@ -10,11 +10,13 @@ git checkout -b beta_merge
 git pull origin beta_merge
 
 step4)get sql file
-
+ for running the commands we should alwaysbe in the derive where all the tools are there                          
 step5)store it in desktop
 step 6)get path of the saql file in properties(right click)
 
 step7)run cmd prompt
 step7) go to the e directory or c where ever
-step8) run mysql -u root -p demo < C:\Users\shilpita\Desktop\demo.sql
+step8) go to php myadmin create database demo
+step9) run mysql -u root -p demo < C:\Users\shilpita\Desktop\demo.sql                        
+
 
